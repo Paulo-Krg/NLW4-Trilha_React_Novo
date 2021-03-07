@@ -1,0 +1,33 @@
+To run this project locally install the "node_modules" folder in your repository using the command line "npm install" or "npm i".
+Then run the script "npm run dev" or "yarn dev".
+teste
+_____________________________________________________________________________________________________
+
+Criar um template de uma aplicação em React:
+    npx create-react-app moveit
+Criar um template utilizando configurações padrão para Typescript:
+    npx create-react-app moveit --template=typescript
+
+create-react-app é uma ferramenta criada pelo time do Facebook para facilitar a inicialização e configuração inicial de projetos React:
+    Como o browser não consegue entender tudo do JS mais moderno, então esses frameworks rodam um processo de transpilação de codigo, para que o browser consiga compreender essas novas funcionalidades. Para isso geralmente são utilizadas as ferramentas Webpack e Babel.
+    A configuração dessas ferramentas é feita de forma automatica utilizando o create-react-app.
+
+Rodar a aplicação React no Localhost a partir do package.json:
+    npm start
+______________________________________________________________________________________________________
+Migrando aplicação para o Next.js:
+    npx create-next-app moveit-next
+
+Adicionando Typescript e seus tipos:
+    yarn add typescript -D
+    yarn add @types/react -D
+    yarn add @types/react-dom -D
+    yarn add @types/node -D
+
+Rodar a aplicação Next.js:
+    yarn dev
+    npm run dev
+
+Adicionando biblioteca de gerenciamento de cookies para salvar dados no armazenamento local:
+    npm add js-cookie
+    npm add @types/js-cookie -D
